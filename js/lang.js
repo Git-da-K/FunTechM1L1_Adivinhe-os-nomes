@@ -10,7 +10,7 @@ export const TEXTS = {
     chooseEmoji: "Escolha um emoji",
     hintTitle: "Dica",
     hintText: "Digite os nomes e escolha emojis para eles. Em seguida, tente lembrar os nomes a partir dos emojis.",
-    accept: "Aceitar",
+    accept: "Próximo",
     win2Title: "Passo 2: Combine os nomes com os emojis",
     check: "Verificar",
     back: "Voltar",
