@@ -3,34 +3,34 @@
 
 export const TEXTS = {
   base: {
-    appTitle: "Guess the names based on emoji",
-    openHint: "Hint",
-    win1Title: "Step 1. Enter names and choose emojis",
-    win1Note: "Enter names (you can enter fewer than 10). Each emoji is assigned to a name.",
-    chooseEmoji: "Choose an emoji",
-    hintTitle: "Hint",
-    hintText: "Enter names and choose emojis for them. Then try to recall the names from the emojis.",
-    accept: "Accept",
-    win2Title: "Step 2. Match the names to the emojis",
-    check: "Check",
-    back: "Back",
-    close: "Close",
-    dropHint: "Drag the card back here",
-    allCorrectTitle: "Cool!",
-    allCorrectText: "All answers are correct 🎉",
-    needOnePair: "Please, enter at least one name with emoji!!!",
-    duplicateNames: "Each name should belong to only one person 😊 Check if there are any duplicates. If there are namesakes, add the first letter of the surname to tell them apart!",
-    someWrongTitle: "There are mistakes",
-    someWrongText: "Check the highlighted rows. The correct names are shown next to them.",
+    appTitle: "Adivinhe os nomes com base nos emojis",
+    openHint: "Dica",
+    win1Title: "Passo 1: Insira os nomes e escolha os emojis",
+    win1Note: "Insira nomes (você pode inserir menos de 10). Cada emoji é associado a um nome..",
+    chooseEmoji: "Escolha um emoji",
+    hintTitle: "Dica",
+    hintText: "Digite os nomes e escolha emojis para eles. Em seguida, tente lembrar os nomes a partir dos emojis.",
+    accept: "Aceitar",
+    win2Title: "Passo 2: Combine os nomes com os emojis",
+    check: "Verificar",
+    back: "Voltar",
+    close: "Fechar",
+    dropHint: "Arraste o cartão de volta aqui",
+    allCorrectTitle: "Legal!",
+    allCorrectText: "Todas as respostas estão corretas 🎉",
+    needOnePair: "Por favor, insira pelo menos um nome com emoji!!!",
+    duplicateNames: "Cada nome deve ser de apenas uma pessoa 😊 Verifique se há cópias. Se tiver nomes iguais, coloque a primeira letra do sobrenome pra diferenciar!",
+    someWrongTitle: "Existem erros",
+    someWrongText: "Verifique as linhas destacadas. Os nomes corretos são mostrados ao lado delas..",
     modalHintBodySetup: `
-      Enter names and choose emojis for them.<br>
-      Then, in the second window, drag the name cards to the emoji pictures.
+      Digite os nomes e escolha emojis para eles.<br>
+      Em seguida, na segunda janela, arraste os cartões dos nome para as imagens do emoji.
     `,
     modalHintBodyQuizIntro: `
-      <p><b>Hint:</b> here’s what you entered at the start:</p>
+      <p><b>Dica:</b> aqui está o que você escreveu no início:</p>
     `,
     modalHintBodyQuizOutro: `
-      <p style="font-size:14px;opacity:.7;">Drag the name card to the corresponding emoji.</p>
+      <p style="font-size:14px;opacity:.7;">Arraste o cartão do nome para o emoji correspondente.</p>
     `,
   },
 };
